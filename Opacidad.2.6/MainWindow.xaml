@@ -8,15 +8,15 @@
         Title="Opadidad" Height="450" Width="800"
         Icon="assets/traffic_light_circle_red.ico" >
     <Grid>
-        <Image  HorizontalAlignment="Left" Height="281" Margin="70,52,0,0" VerticalAlignment="Top" Width="194" Source="assets/episodioIV.jpg" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" 
+        <Image x:Name="Episodio4Image" HorizontalAlignment="Left" Height="281" Margin="70,52,0,0" VerticalAlignment="Top" Width="194" Source="assets/episodioIV.jpg" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" Opacity="0.5"
                 />
 
-        <Image HorizontalAlignment="Left" Height="281" Margin="306,52,0,0" VerticalAlignment="Top" Width="194" Source="assets/episodioV.jpg" 
-               MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" />
+        <Image x:Name="Episodio5Image" HorizontalAlignment="Left" Height="281" Margin="306,52,0,0" VerticalAlignment="Top" Width="194" Source="assets/episodioV.jpg" 
+               MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" Opacity="0.5"/>
 
-        <Image HorizontalAlignment="Left" Height="281" Margin="547,52,0,0" VerticalAlignment="Top" Width="194" Source="assets/episodioVI.jpg"
+        <Image x:Name="Episodio6Image" HorizontalAlignment="Left" Height="281" Margin="547,52,0,0" VerticalAlignment="Top" Width="194" Source="assets/episodioVI.jpg"
                
-               MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" />
+               MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" Opacity="0.5" />
 
     </Grid>
 </Window>
